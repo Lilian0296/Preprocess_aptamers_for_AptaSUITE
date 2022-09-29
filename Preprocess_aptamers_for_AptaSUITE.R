@@ -93,15 +93,11 @@ for (i in 1:length(Barcodes$Search_seed)){
 #                  Sequences=c("ACGCTCGGATGCCACTACAG","CTCATGGACGTGCTGGTGAC"))
 
 
-#Barcodes=data.frame(Name=c("P3_B1","B4_B2","P6_B3","P7_B4","P9_B5","P10_B6","C8_B7","C9_B8"),
+#Barcodes=data.frame(Name=c("B1","B2","B3","B4"),
 #                    Sequences=c("CATGTCA",
 #                                "GTAAAGTCAA",
 #                                "CGGT",
-#                                "AACAGTTG",
-#                                "GACTG",
-#                                "CCATAAA",
-#                                "TTCCC",
-#                                "GAAGTCTA"))
+#                                "AACAGTTG"))
 
-#write.csv(Primer,"D:/Lilian/Aptamer_4_2022/Preprocess aptamer for Aptasuit/Primer.csv",row.names=FALSE)
-#write.csv(Barcodes,"D:/Lilian/Aptamer_4_2022/Preprocess aptamer for Aptasuit/Barcodes.csv",row.names=FALSE)
+#write.csv(Primer,"/Primer.csv",row.names=FALSE)
+#write.csv(Barcodes,"/Barcodes.csv",row.names=FALSE)
